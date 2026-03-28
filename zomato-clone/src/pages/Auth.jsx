@@ -10,6 +10,8 @@ const Auth = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+
+  console.log("Line added to push to the github for the demo...!");
   const handleSubmit = async () => {
     if (!email || !password) {
       alert("Please fill all fields");
