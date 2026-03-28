@@ -1,0 +1,124 @@
+
+
+.filter-wrapper {
+  position: relative;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  z-index: 200;
+}
+
+
+.filter-btn {
+  background-color: #ff3f6c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.filter-btn:hover {
+  background-color: #e0355b;
+}
+
+
+.filter-dropdown {
+  position: absolute;
+  top: 48px;
+  left: 0;              
+  transform: none;      
+  background-color: #fff;
+  width: 260px;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 24px rgba(0,0,0,0.18);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.filter-dropdown::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: 22px;   
+  border-width: 7px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+}
+
+
+.filter-dropdown label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1c1c1c;
+  margin-bottom: 6px;
+}
+
+
+.filter-dropdown .cuisine-list {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 12px;
+}
+
+
+.cuisine-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4f4f4f;
+  cursor: pointer;
+}
+
+
+.cuisine-item input {
+  cursor: pointer;
+}
+
+
+.apply-btn {
+  background-color: #ff3f6c;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.apply-btn:hover {
+  background-color: #e0355b;
+}
+
+
+.filter-dropdown,
+.filter-dropdown * {
+  color: #1c1c1c;
+}
+
+
+.cuisine-item span {
+  color: #1c1c1c !important;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+.filter-btn {
+  background-color: #E23744 !important;
+  color: #ffffff !important;
+}
+
+.filter-btn:hover {
+  background-color: #E23744 !important;
+  color: #ffffff !important;
+}
+

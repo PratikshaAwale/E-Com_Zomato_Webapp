@@ -1,0 +1,39 @@
+.inspiration-wrapper {
+  padding: 30px 40px;
+  background-color: #f8f8f8;
+}
+
+.inspiration-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #1c1c1c;
+}
+
+.inspiration-list {
+  display: flex;
+  gap: 28px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.inspiration-card {
+  min-width: 140px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.inspiration-card img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.inspiration-card p {
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1c1c1c;
+}

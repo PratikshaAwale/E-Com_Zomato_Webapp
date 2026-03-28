@@ -1,0 +1,138 @@
+/* Page Container */
+.checkout-container {
+  padding: 40px 60px;
+  background-color: #f8f8f8;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Page Title */
+.checkout-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* Layout */
+.checkout-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* LEFT SIDE */
+.checkout-left {
+  flex: 2;
+}
+
+/* RIGHT SIDE */
+.checkout-right {
+  flex: 1;
+}
+
+/* Cards */
+.card-box {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
+}
+
+/* Section Headings */
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+/* Address */
+.address-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.address-option input {
+  margin-right: 10px;
+  accent-color: #e23744;
+}
+
+/* Order Summary Item */
+.order-item {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.order-item img {
+  width: 85px;
+  height: 85px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.order-details h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.order-details p {
+  font-size: 14px;
+  color: #666;
+  margin: 3px 0;
+}
+
+/* Payment Summary */
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  font-size: 15px;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background-color: #eee;
+  margin: 15px 0;
+}
+
+/* Payment Option */
+.payment-option {
+  margin: 18px 0;
+  font-size: 15px;
+}
+
+.payment-option input {
+  margin-right: 8px;
+  accent-color: #e23744;
+}
+
+/* Button */
+.place-order-btn {
+  width: 100%;
+  background-color: #e23744;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.place-order-btn:hover {
+  background-color: #c62836;
+  transform: translateY(-2px);
+}
